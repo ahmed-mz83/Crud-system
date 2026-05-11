@@ -1,0 +1,69 @@
+
+body{
+background-image: url(../../crud/assist/2308-w062-n005-220B-p15-220.png);
+
+background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.photo-container {
+    
+    /* height: 100vh;
+    width: 100%; */
+   /* Prevents scrollbars from the video */
+    
+    /* background-size:cover; */
+
+width: 100%;
+    min-height: 100vh;
+    padding: 50px 0;
+
+}
+
+/* Video scales to cover the background */
+
+
+/* The Form Card styling */
+.crud-card {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    backdrop-filter: blur(10px);    /* Modern "glass" effect */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Optional: Overlay to make text more readable */
+.video-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Dims the video slightly */
+    z-index: -1;
+}
+
+.thedata{
+    position: absolute;
+    top: 85%; 
+     width: 100%;
+    height: 100%; 
+    
+  
+    
+}
+
+
+.bungee-regular {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
